@@ -1,3 +1,4 @@
+#CANNOT USE DOUBLY LINKED LIST WHICH MEANS WE DO NOT KNOW THE PREVIOUS SO CANNOT USE TAIL
 class Node:
     def __init__(self, value=None, next_node=None):
         self.value = value
