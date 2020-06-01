@@ -20,7 +20,9 @@ duplicates = []
 #Creates the new tree
 new_BST = BSTNode(names_1[0])
 for name_1 in names_1:
+    #inserted tree to go through lists
     new_BST.insert(name_1)
+    #runtime is: 0.20656919479370117 seconds
 for name in names_2:
     if new_BST.contains(name):
             duplicates.append(name)
