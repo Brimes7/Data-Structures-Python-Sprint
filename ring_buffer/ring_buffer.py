@@ -1,3 +1,7 @@
+import sys
+from doubly_linked_list import DoublyLinkedList
+sys.path.append('./doubly_linked_list')
+
 class RingBuffer:
     def __init__(self, capacity):
         pass
